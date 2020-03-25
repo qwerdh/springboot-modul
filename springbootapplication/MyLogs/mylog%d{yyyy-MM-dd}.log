@@ -1,0 +1,32 @@
+2020-03-25 16:13:29.208 [ restartedMain ] - [ INFO  ] [ com.cczu.ddd.helloworldmain : 48 ] - Starting helloworldmain on 丁丁丁冲鸭 with PID 10712 (D:\javaworkspace\springbootapplication\target\classes started by dingdingding in D:\javaworkspace\springbootapplication)
+2020-03-25 16:13:29.211 [ restartedMain ] - [ DEBUG ] [ com.cczu.ddd.helloworldmain : 51 ] - Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2020-03-25 16:13:29.211 [ restartedMain ] - [ INFO  ] [ com.cczu.ddd.helloworldmain : 593 ] - No active profile set, falling back to default profiles: default
+2020-03-25 16:13:29.417 [ background-preinit ] - [ INFO  ] [ org.hibernate.validator.internal.util.Version : 30 ] - HV000001: Hibernate Validator 5.3.6.Final
+2020-03-25 16:13:30.039 [ restartedMain ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 166 ] - No MyBatis mapper was found in '[com.cczu.ddd.mapper]' package. Please check your configuration.
+2020-03-25 16:13:30.176 [ restartedMain ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 166 ] - No MyBatis mapper was found in '[com.cczu.ddd]' package. Please check your configuration.
+2020-03-25 16:13:31.186 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 179 ] - Starting service [Tomcat]
+2020-03-25 16:13:31.187 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 179 ] - Starting Servlet Engine: Apache Tomcat/8.5.23
+2020-03-25 16:13:31.340 [ localhost-startStop-1 ] - [ INFO  ] [ o.a.c.c.C.[Tomcat].[localhost].[/springboot] : 179 ] - Initializing Spring embedded WebApplicationContext
+2020-03-25 16:13:32.112 [ restartedMain ] - [ INFO  ] [ org.hibernate.jpa.internal.util.LogHelper : 31 ] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-03-25 16:13:32.186 [ restartedMain ] - [ INFO  ] [ org.hibernate.Version : 37 ] - HHH000412: Hibernate Core {5.0.12.Final}
+2020-03-25 16:13:32.188 [ restartedMain ] - [ INFO  ] [ org.hibernate.cfg.Environment : 213 ] - HHH000206: hibernate.properties not found
+2020-03-25 16:13:32.189 [ restartedMain ] - [ INFO  ] [ org.hibernate.cfg.Environment : 317 ] - HHH000021: Bytecode provider name : javassist
+2020-03-25 16:13:32.239 [ restartedMain ] - [ INFO  ] [ org.hibernate.annotations.common.Version : 66 ] - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-03-25 16:13:32.469 [ restartedMain ] - [ INFO  ] [ org.hibernate.dialect.Dialect : 156 ] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-03-25 16:13:32.502 [ restartedMain ] - [ INFO  ] [ o.h.engine.jdbc.env.internal.LobCreatorBuilderImpl : 98 ] - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2020-03-25 16:13:34.273 [ restartedMain ] - [ INFO  ] [ org.apache.activemq.util.IdGenerator : 164 ] - Sanitized hostname from: 丁丁丁冲鸭 to: 
+2020-03-25 16:13:34.937 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 179 ] - Initializing ProtocolHandler ["http-nio-80"]
+2020-03-25 16:13:34.944 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 179 ] - Starting ProtocolHandler ["http-nio-80"]
+2020-03-25 16:13:34.955 [ restartedMain ] - [ INFO  ] [ org.apache.tomcat.util.net.NioSelectorPool : 179 ] - Using a shared selector for servlet write/read
+2020-03-25 16:13:34.976 [ restartedMain ] - [ INFO  ] [ com.cczu.ddd.helloworldmain : 57 ] - Started helloworldmain in 6.134 seconds (JVM running for 7.734)
+2020-03-25 16:13:35.003 [ pool-2-thread-1 ] - [ INFO  ] [ com.cczu.ddd.service.OntimeService : 19 ] - 这是定时info
+2020-03-25 16:13:35.003 [ pool-2-thread-1 ] - [ WARN  ] [ com.cczu.ddd.service.OntimeService : 20 ] - 这是定时warn
+2020-03-25 16:13:35.003 [ pool-2-thread-1 ] - [ ERROR ] [ com.cczu.ddd.service.OntimeService : 21 ] - 这是定时error
+2020-03-25 16:13:40.001 [ pool-2-thread-1 ] - [ INFO  ] [ com.cczu.ddd.service.OntimeService : 19 ] - 这是定时info
+2020-03-25 16:13:40.002 [ pool-2-thread-1 ] - [ WARN  ] [ com.cczu.ddd.service.OntimeService : 20 ] - 这是定时warn
+2020-03-25 16:13:40.003 [ pool-2-thread-1 ] - [ ERROR ] [ com.cczu.ddd.service.OntimeService : 21 ] - 这是定时error
+2020-03-25 16:13:45.001 [ pool-2-thread-1 ] - [ INFO  ] [ com.cczu.ddd.service.OntimeService : 19 ] - 这是定时info
+2020-03-25 16:13:45.002 [ pool-2-thread-1 ] - [ WARN  ] [ com.cczu.ddd.service.OntimeService : 20 ] - 这是定时warn
+2020-03-25 16:13:45.002 [ pool-2-thread-1 ] - [ ERROR ] [ com.cczu.ddd.service.OntimeService : 21 ] - 这是定时error

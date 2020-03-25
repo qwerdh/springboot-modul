@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh"  xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>用户登录</title>
+    <meta charset="UTF-8"/>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" th:href="@{/css/bootstrap.min.css}" rel="stylesheet"/>
+
+</head>
+<body>
+<form  method="post"  th:action="@{/login}">
+    <input id="login-username" type="text" name="username"  data-msg="Please enter your username" />
+    <input id="login-password" type="password" name="password"  data-msg="Please enter your password"/>
+    <h3 th:text="${message}"></h3>
+    <div>
+        <div>
+            <a href="#" class="tooltip-show" data-toggle="tooltip" title="验证码区分大小写!">
+                <input id="code"  οnclick="getCode()" placeholder="验证码" type="text"
+                       class="" name="code" style="width:170px"  />	</a>
+            <img οnclick="getCode()" src="" id="verifyimg" style="margin-right: 10px;"/></div>
+
+        <!-- 验证码 显示 -->
+    </div>
+    <button id="register1" type="submit" name="registerSubmit" class="btn btn-primary">登录</button>
+</form>
+
+</body>
+<script type="text/javascript" src="js/jquery-3.2.1.slim.min.js" ></script>
+<script type="text/javascript">
+    getCode();
+
+    /**
+     * 获取验证码
+     * 将验证码写到login.html页面的id = verifyimg 的地方
+     */
+    function getCode() {
+        document.getElementById("verifyimg").src = "http://localhost/springboot/verifyCode";
+    }
+    $(function () { $('.tooltip-show').tooltip('show');});
+</script>
+</html>
